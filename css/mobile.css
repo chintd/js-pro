@@ -1,0 +1,44 @@
+@media (max-width: 576px) {
+  section > .container {
+    justify-content: left;
+    width: 100%;
+  }
+  #nav-bar .row {
+    text-align: left;
+  }
+  #nav-bar .container .col-sm:last-child {
+    border-right: unset;
+  }
+  #nav-bar .container {
+    display: block;
+  }
+  #nav-bar .row div {
+    padding-left: 24px;
+    padding-right: 0;
+    width: 100%;
+  }
+  #nav-bar .col-sm:last-child {
+    border: unset;
+  }
+  #info .row table {
+    margin-bottom: 24px;
+  }
+  .info-tab1 {
+    height: fit-content;
+  }
+  .certificate-content:nth-child(3) .certificate-content-m {
+    padding-left: 0;
+    border-left: unset;
+  }
+  .certificate-content {
+    border-bottom: 1px solid red;
+    justify-self: center;
+    text-align: center;
+  }
+  .certificate-img {
+    width: 350px;
+  }
+  #footer > .container {
+    padding: 24px 0;
+  }
+}

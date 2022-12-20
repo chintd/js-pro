@@ -1,0 +1,33 @@
+@media (min-width: 578px) and (max-width: 992px) {
+  #nav-bar .row > .col-sm {
+    padding: 0;
+  }
+
+  /* set height for tab kinh nghiem */
+  .info-tab {
+    height: 550px;
+  }
+  .info-tab1 {
+    height: fit-content;
+  }
+  /* set lai thu tu cho tab */
+
+  #info .row {
+    gap: 35px;
+    justify-content: space-around;
+  }
+
+  .certificate-content-m {
+    display: block;
+  }
+  .certificate-img {
+    width: 100%;
+  }
+
+  #project .container > div {
+    justify-content: space-between;
+  }
+  .footer {
+    justify-content: center;
+  }
+}
